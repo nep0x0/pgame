@@ -12,6 +12,9 @@ public class Player : MonoBehaviour
 
     public LayerMask layerYangKitaAnggapSebagaiTanah;
     public Transform posisiPendeteksiTanah;
+
+    public float darah = 100f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +26,10 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(darah <= 0)
+        {
+            Destroy(gameObject);
+        }
 
         if (Input.GetKeyDown(KeyCode.Mouse0) && Physics2D.OverlapCircle(posisiPendeteksiTanah.position,0,layerYangKitaAnggapSebagaiTanah))
         {
