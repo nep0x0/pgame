@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 107
+  controlID: 94
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -94,8 +94,8 @@ MonoBehaviour:
     y: 0
     width: 308
     height: 352
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -226,7 +226,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 112
+  controlID: 95
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -251,7 +251,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 113
+  controlID: 17
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -317,21 +317,21 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/zombie/female
+    - Assets
     m_Globs: []
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/zombie/female
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\8020200101\pgame\latihan 6
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: a83d0000
-    m_LastClickedID: 15784
-    m_ExpandedIDs: 000000002c3d00003a3d000000ca9a3b
+    m_SelectedIDs: 123d0000
+    m_LastClickedID: 15634
+    m_ExpandedIDs: 00000000123d0000143d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -359,7 +359,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000002c3d0000
+    m_ExpandedIDs: 00000000123d0000143d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -481,9 +481,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: ac3d0000ae3d0000b03d0000b23d0000b43d0000b63d0000b83d0000ba3d0000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 5cfbffff
+      m_ExpandedIDs: 4cfbffff323c0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -543,9 +543,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 3.2860007, y: -1.9272203, z: -0.49664646}
+    m_Target: {x: 2.8608267, y: -1.710571, z: -0.56337607}
     speed: 2
-    m_Value: {x: 3.2860007, y: -1.9272203, z: -0.49664646}
+    m_Value: {x: 2.8608267, y: -1.710571, z: -0.56337607}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -596,9 +596,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 3.0273137
+    m_Target: 2.1932142
     speed: 2
-    m_Value: 2.896951
+    m_Value: 2.1932142
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -679,9 +679,9 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
     m_HSlider: 0
-    m_VSlider: 1
+    m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -692,8 +692,8 @@ MonoBehaviour:
       y: 21
       width: 634
       height: 310
-    m_Scale: {x: 0.3136531, y: 0.3136531}
-    m_Translation: {x: 317, y: 149.34366}
+    m_Scale: {x: 0.3136531, y: 0.31365314}
+    m_Translation: {x: 317, y: 149.34367}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -703,7 +703,7 @@ MonoBehaviour:
       x: -1010.67065
       y: -476.14276
       width: 2021.3413
-      height: 988.353
+      height: 988.3529
     m_MinimalGUI: 1
   m_defaultScale: 0.28703704
   m_LastWindowPixelSize: {x: 634, y: 331}
